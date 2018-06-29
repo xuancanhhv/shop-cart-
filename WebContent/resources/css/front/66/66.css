@@ -1,0 +1,103 @@
+<!--
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : CanhNX
+Created date : 12/06/2018
+Updated by :
+Updated date :
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>63.業績目標の達成度入力の確認</title>
+<script type="text/javascript"
+    src="../resources/js/front/layout/jquery-3.3.1.js"></script>
+<script type="text/javascript"
+    src="../resources/js/front/layout/common.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $("#includedHeader").load("../pages/_header.html");
+        set_resize();
+    });
+</script>
+<link rel="stylesheet" href="../resources/css/front/63/63.css">
+</head>
+<body>
+    <div style="display: none" id="set_style">2</div>
+    <div style="display: none" id="name">業績目標の達成度入力の確認</div>
+    <div style="display: none" id="name_insert_footer">
+        <a href="#">達成度を入力する</a>&emsp;&emsp;<a href="#">戻る</a>
+    </div>
+
+    <div id="includedHeader"></div>
+
+    <div id="div_contant" class="div_contant">
+        <div class="tab chu_trong_bang">
+            <button class="tablinks firt" onclick="openCity(event, 'London')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">田中&nbsp;&nbsp;
+                一郎</button>
+            <div class="div_tab"></div>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">山田&nbsp;&nbsp;
+                花子</button>
+            <div class="div_tab"></div>
+            <button class="tablinks active" onclick="openCity(event, 'Tokyo')">田中&nbsp;&nbsp;
+                一郎</button>
+        </div>
+
+        <div class="div_contant_right">
+
+            <div class="div_contant_right_2">
+                <div class="div_contant_right_1_2">
+                    <div class="div_contant_right_1_2_1 ten_bang">以下の達成度を入力しますか？</div>
+                </div>
+                <div class="div_contant_right_1 no-body">
+                    <div class="div_contant_right_1_3">
+                        <table class="table_right_1_3 chu_trong_bang">
+                            <tr>
+                                <td class="td_1">社員番号</td>
+                                <td class="td_4">123456789</td>
+                            </tr>
+                            <tr class="tr_1">
+                                <td class="td_1">業績目標</td>
+                                <td class="td_4">XXXXXXXX</td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">達成度</td>
+                                <td class="td_4">XXX%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+
+    <div id="includedFoot"></div>
+    <script type="text/javascript">
+        $(function() {
+            $("#includedFoot").load("../pages/_footer.html");
+        });
+    </script>
+</body>
+</html>

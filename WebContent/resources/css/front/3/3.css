@@ -1,0 +1,237 @@
+.div_contant_1{
+	width:100%;
+	height:auto;
+	
+}
+.div_contant_left {
+    width: 24%;
+    /* height: 1000px; */
+    background-color: #f2f2f2;
+    float: left;
+    /* border-right: 2px solid #cccccc; */
+}
+.div_contant{
+	background-color: #f2f2f2;
+	
+}
+.div_contant_right {
+    width: 76%;
+    height: auto;
+    float: right;
+    border-left: 2px solid #cccccc;
+	background-color:#fff
+}
+.div_contant_left_1{
+	width:73%;
+    height: 362px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.div_contant_left_2{
+	width:100%;
+	height:40;
+}
+.div_contant_left_1_1{
+	width:100%;
+	margin-bottom: 20px;
+    font-weight: bold;
+}
+.ul_contant_left_1{
+	list-style:none;
+	margin:0px;
+	padding:0px
+}
+.ul_contant_left_1 li{
+	border-bottom:1px solid #e6e6e6;
+	    height: 60px;
+		padding-top:13px
+}
+.checkbox_contant_left_1_1{
+	
+}
+
+/* The container */
+.container {
+   display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #333333;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #333333;
+    border-radius: 2px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+       left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.after{
+	padding-left:20px
+}
+.last{
+	border-bottom:none !important;
+	padding-left:20px
+}
+.checkmark2{
+	float:right
+}
+.div_contant_right_1{
+	width:100%;
+	height:auto;
+	border-bottom:2px solid #ccc;
+	
+}
+.div_contant_right_1_2{
+	 width:100%;
+   /*   */
+	
+}
+.div_contant_right_1_3{
+	width: 94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;
+}
+.table_right_1_1{
+	width:100%;
+}
+.table_right_1_1 td{
+	border:1px solid #e6e6e6;
+	text-align:center;
+	height:40px;
+	
+}
+.table_right_1_1 th{
+	    border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+.div_contant_right_1_2_1{
+	margin-left:auto;
+	   margin-right:auto;
+	   width: 94%;
+	   text-align:left;
+	   padding-bottom:30px;
+	   padding-top:30px
+}
+
+
+.table_right_1_2{
+	width:100%;
+}
+.table_right_1_2 td{
+	border:1px solid #e6e6e6;
+	text-align:center;
+	height:40px;
+	width:16.6%
+	
+}
+.table_right_1_2 th{
+	    border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+
+.table_right_1_3{
+	width:100%;
+}
+.table_right_1_3 td{
+	border:1px solid #e6e6e6;
+	text-align:center;
+	height:40px;
+	width:25%
+	
+}
+.table_right_1_3 th{
+	    border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+.btn_input{
+	
+      border: 1px solid #ccc;
+    width: 129px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #3498db;
+    box-shadow: 1px 1px 1px 1px #cff;
+    color: #fff;
+    
+}
+
+.btn_input:hover {
+    
+    background-color: #cccccc;
+    
+}
+.no-body{
+	border-bottom: 2px solid #fff  !important;
+}

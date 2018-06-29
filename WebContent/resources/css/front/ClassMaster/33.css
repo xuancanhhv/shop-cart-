@@ -1,0 +1,126 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/06/05
+Updated by :
+Updated date :
+*/
+body {
+	background-color: #f2f2f2 !important;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_center tr td {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left !important;
+	padding-left: 1%;
+}
+
+.text_right {
+	text-align: right !important;
+	padding-right: 2%;
+}
+
+.margin_left_3 {
+	margin-left: 3% !important;
+}
+
+.margin_right_3 {
+	margin-right: 3% !important;
+}
+
+.margin_top_4 {
+	margin-top: 4% !important;
+}
+
+.margin_bottom_3 {
+	margin-bottom: 3% !important;
+}
+
+.width_20 {
+	width: 20%;
+}
+
+.input_text {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #3498db !important;
+}
+
+.container_1 {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+@media ( min-width : 768px) {
+	.container_1 {
+		width: 750px;
+	}
+}
+
+@media ( min-width : 992px) {
+	.container_1 {
+		width: 970px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	.container_1 {
+		width: 1050px;
+	}
+}
+
+.table_right {
+	width: 100%;
+}
+
+.table_right td {
+	height: 38px;
+	vertical-align: middle;
+	border: 1px solid #e6e6e6;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.table_right th {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	vertical-align: middle;
+	height: 38px;
+	background-color: #3498db;
+	color: #fff;
+}
+
+.btn_input {
+	border: 1px solid #ccc;
+	width: 129px;
+	padding: 5px;
+	border-radius: 8px;
+	background-color: #3498db;
+	box-shadow: 1px 1px 1px 1px #cff;
+	color: #fff;
+	font-size: 14px;
+}
+
+.btn_input:hover {
+	background-color: #cccccc;
+}
+
+.input_text {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #3498db !important;
+}

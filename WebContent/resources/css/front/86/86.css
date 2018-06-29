@@ -1,0 +1,141 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : DoanhDn
+Created date : 2018/5/30
+Updated by : DoanhDn
+Updated date : 2018/6/1
+Updated by : DoanhDn
+Updated date : 2018/06/08
+Updated content : update border for contain
+*/
+.btn_input {
+	border: 1px solid #ccc;
+	width: 129px;
+	padding: 5px;
+	border-radius: 8px;
+	background-color: #3498db;
+	box-shadow: 1px 1px 1px 1px #cff;
+	color: #fff;
+	font-size: 14px;
+}
+
+.btn_input:hover {
+	background-color: #cccccc;
+}
+
+.line {
+	border: 0;
+	background-color: #ccc;
+	height: 2px;
+	cursor: pointer;
+}
+
+td {
+	vertical-align: middle !important;
+	height: 49px;
+}
+
+th {
+	color: white;
+	background-color: #3498db;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.margin_left_3 {
+	margin-left: 3% !important;
+}
+
+.margin_right_3 {
+	margin-right: 3% !important;
+}
+
+body {
+	background-color: #f2f2f2 !important;
+}
+
+.container_1 {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	border-left: 2px solid #cccccc;
+	border-right: 2px solid #cccccc;
+}
+
+@media ( min-width : 768px) {
+	.container_1 {
+		width: 750px;
+	}
+}
+
+@media ( min-width : 992px) {
+	.container_1 {
+		width: 970px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	.container_1 {
+		width: 1050px;
+	}
+}
+
+.width_16 {
+	width: 16%;
+}
+
+.width_18 {
+	width: 18%;
+}
+
+.width_32 {
+	width: 32%;
+}
+
+.width_41 {
+	width: 41%;
+}
+
+.width_20.5 {
+	width: 20.5%;
+}
+.bs-docs-section {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 100px; */
+    border: 1px solid #3498db;
+    height: 250px;
+    top: 100px;
+    position: relative;
+    border-radius: 5px;
+}
+.table_right_1_3{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #ff0000;
+   
+}
+.button_3{
+    border:0px;
+    background-color:#fff;
+    font-size:20px;
+    color:#3498db
+}
+.button_3:hover{
+  
+    color:#ccc
+}
+.table_right_1_4{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table_right_1_4 td{
+    padding:40px
+}

@@ -1,0 +1,153 @@
+/* Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/12/06
+Updated by :
+Updated date : */
+.div_contant {
+	background-color: #f2f2f2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.div_contant_right {
+	width: 76%;
+	height: 92.5%;
+	/* float: right; */
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding: 3%;
+	border: 2px solid #ccc;
+	/* border-right: 2px solid #ccc; */
+	/* margin-top: 20px; */
+	/* padding-top: 20px; */
+	/* top: 60px; */
+	position: relative;
+	/* margin-bottom: 46px; */
+	border-top: 0px;
+	padding-bottom: 0px;
+}
+
+.div_contant_right_1 {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #ccc;
+}
+
+.div_contant_right_1_2 {
+	width: 100%;
+}
+
+.div_contant_right_1_2_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 30px;
+	/* padding-top: 30px; */
+}
+
+.no-body {
+	border-bottom: 2px solid #fff !important;
+}
+
+.td_4 {
+	width: 65% !important;
+	text-align: left !important;
+	padding-left: 20px !important;
+}
+
+.td_1 {
+	width: 35% !important;
+}
+
+.td_3 {
+	width: 5% !important;
+	background-color: #fff !important;
+}
+
+.tr_1 {
+	background-color: #edf5fa !important
+}
+
+.tab {
+	overflow: hidden;
+	width: 76%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	background-color: inherit;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 9px 16px;
+	transition: 0.4s;
+	border: 2px solid #ccc;
+	border-bottom: 0px;
+	width: 13.47%;
+	border-bottom: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 40px;
+	overflow: hidden;
+	border-bottom: 2px solid #ccc;
+	text-align: left;
+	background-color: #e6e6e6;
+	color: #ccc;
+	margin-right: -10px;
+	z-index: -1
+}
+
+.tab .div_tab {
+	width: 0px;
+	float: left;
+	border-bottom: 2px solid #ccc;
+	height: 40px
+}
+
+.tab .active {
+	background-color: #fff !important;
+	border-bottom: 0px solid #fff;
+	color: #000;
+	font-weight: bold;
+	z-index: 2 !important;
+	margin-right: -26.1%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #ccc;
+}
+
+.table_right_1_3 {
+	width: 100%;
+}
+
+.table_right_1_3 td {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	/* height: 80px; */
+	/*width: 25%;*/
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.table_right_1_3 th {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	height: 35px;
+	background-color: #3498db;
+	color: #fff;
+	font-family: arial;
+}

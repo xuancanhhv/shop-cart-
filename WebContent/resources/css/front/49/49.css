@@ -1,0 +1,56 @@
+body {
+	background: #f2f2f2 !important;
+}
+
+.boxfix {
+	margin-top: 230px;
+	margin-bottom: 250px;
+}
+
+.alertfix49 {
+	width: 310px;
+	background: #fff;
+	margin: 0 auto;
+	height: 80px;
+	top: 150px;
+	border: 2px solid #ccc !important;
+}
+
+.alertfix49>p {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.span_foot_hide {
+	display: none;
+}
+
+.footer_block {
+	display: none;
+}
+
+.insert_button {
+	text-align: none;
+}
+
+#insert_button a {
+	font-size: 12px !important;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+.span_foot_222 {
+	display: none;
+}
+
+.span_foot_fix {
+	margin-top: -4px !important;
+}
+
+.span_head_4_1_2 {
+	font-size: 12px;
+}
+
+.footer-link-left {
+	margin-right: 20px;
+}

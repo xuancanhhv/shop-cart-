@@ -1,0 +1,45 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/06/05
+Updated by :
+Updated date :
+*/
+.div_contant {
+	background-color: #f2f2f2;
+}
+
+.div_contant_right {
+	width: 35%;
+	height: auto;
+	/* float: right; */
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding: 30px;
+	border: 2px solid #ccc;
+	top: 30%;
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.div_contant_right_1 {
+	width: 100%;
+	height: auto;
+	/* border-bottom: 2px solid #ccc; */
+}
+
+.column_line_bottom {
+	border-bottom: 2px solid #e6e6e6;
+}
+
+.table_right {
+	width: 100%;
+	line-height: 100px;
+}
+
+.table_right_1 {
+	width: 100%;
+	line-height: 100px;
+}

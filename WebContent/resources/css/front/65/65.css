@@ -1,0 +1,221 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/06/12
+Updated by :
+Updated date : 
+*/
+.div_contant_left {
+	width: 30%;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.div_contant_right {
+	width: 70%;
+	height: 100%;
+	float: right;
+	border-left: 2px solid #cccccc;
+	background-color: #f2f2f2;
+	padding: 15px;
+	float: right;
+}
+
+.div_contant_right_1 {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #ccc;
+}
+
+.div_contant_right_1_2 {
+	width: 100%;
+}
+
+.div_contant_right_1_3 {
+	width: 94%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.table_right_1_1 {
+	width: 100%;
+}
+
+.table_right_1_1 td {
+	height: 40px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.table_right_1_1 th {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	height: 40px;
+	background-color: #3498db;
+	color: #fff;
+	font-family: arial;
+}
+
+.div_contant_right_1_2_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 94%;
+	text-align: left;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.table_right_1_3 {
+	width: 100%;
+	border: 1px solid #ccc
+}
+
+.table_right_1_3 td {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	/* height: 80px; */
+	width: 25%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.table_right_1_3 th {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	height: 35px;
+	background-color: #3498db;
+	color: #fff;
+	font-family: arial;
+}
+
+.input_text {
+	width: 15%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #3498db !important;
+}
+
+.no-body {
+	border-bottom: 2px solid #fff !important;
+}
+
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 16px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	background-color: inherit;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 9px 16px;
+	transition: 0.4s;
+	border: 2px solid #ccc;
+	border-bottom: 0px;
+	width: 15.38%;
+	border-bottom: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 40px;
+	overflow: hidden;
+	border-bottom: 2px solid #ccc;
+	text-align: left;
+	background-color: #e6e6e6;
+	color: #ccc;
+	margin-right: -10px;
+	z-index: -1
+}
+
+.tab .div_tab {
+	width: 0px;
+	float: left;
+	border-bottom: 2px solid #ccc;
+	height: 40px
+}
+
+.tab .active {
+	background-color: #fff !important;
+	border-bottom: 0px solid #fff;
+	color: #000;
+	font-weight: bold;
+	z-index: 2 !important;
+	margin-right: -29.7%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.div_contant_right_2 {
+	background-color: #fff;
+	border: 2px solid #ccc;
+	border-top: 0px;
+	padding: 20px;
+	height: 93%;
+	width: 99.3%;
+}
+
+.tr_1 {
+	background-color: #edf5fa !important;
+}
+
+.td_1 {
+	width: 35% !important;
+}
+
+.td_4 {
+	width: 65% !important;
+	text-align: left !important;
+	padding-left: 20px !important;
+}
+
+.td_3 {
+	width: 5% !important;
+	background-color: #fff !important;
+	padding: 5px;
+}
+
+.td_left {
+	padding-right: 27px !important;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_right {
+	text-align: right;
+}
+
+.tr_1 {
+	background-color: #edf5fa !important
+}

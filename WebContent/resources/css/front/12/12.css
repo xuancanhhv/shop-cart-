@@ -1,0 +1,58 @@
+.warp12 {
+	　　background: #f2f2f2;
+	margin-top: 179px;
+	margin-bottom: 199px;
+}
+
+.container_12 {
+	width: 380px;
+	margin: 0 auto;
+	background: #fff;
+	height: 174px;
+	padding-top: 40px;
+	border: 1px solid #ccc;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 20px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.inputtext {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.inputtext>label {
+	font-size: 18px !important;
+}
+
+.containerfix {
+	background: #f2f2f2;
+}
+
+.footer_block {
+	display: none;
+}
+
+#insert_button a {
+	font-size: 12px !important;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+.span_foot_9 {
+	padding-right: 100px !important;
+}
+
+.span_head_4_1_2 {
+	font-size: 12px;
+}
+
+.span_foot_fix {
+	margin-top: -28px !important;
+}

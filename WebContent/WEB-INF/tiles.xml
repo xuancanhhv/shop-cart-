@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- FRONT -->
+	<!-- Base Define -->
+	<definition name="base_front.definition"
+		template="/Views/front/layout/_layout.jsp">
+		<put-attribute name="site_url"
+			value="http://localhost:8080/WebApplication/" />
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/Views/front/layout/_header.jsp" />
+		<put-attribute name="menu"
+			value="/Views/front/layout/_menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/Views/front/layout/_footer.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="front/home/index"
+		extends="base_front.definition">
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="body"
+			value="/Views/front/home/index.jsp" />
+	</definition>
+	<!--2 -->
+	<definition name="front/home/2"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/2.jsp" />
+	</definition>
+	<!-- Home Page -->
+	<definition name="front/home/3"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/3.jsp" />
+	</definition>
+	<!--4 -->
+	<definition name="front/home/4"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/4.jsp" />
+	</definition>
+	<!--5 -->
+	<definition name="front/home/5"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/5.jsp" />
+	</definition>
+	<!--6 -->
+	<definition name="front/home/6"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/6.jsp" />
+	</definition>
+	<!--7 -->
+	<definition name="front/home/7"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/7.jsp" />
+	</definition>
+	<!--8 -->
+	<definition name="front/home/8"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/8.jsp" />
+	</definition>
+	<!--9 -->
+	<definition name="front/home/9"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/9.jsp" />
+	</definition>
+	<!--10 -->
+	<definition name="front/home/10"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/10.jsp" />
+	</definition>
+
+	<!--11_2 -->
+	<definition name="front/home/11_2"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/11_2.jsp" />
+	</definition>
+
+	<!--12 -->
+	<definition name="front/home/12"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/12.jsp" />
+	</definition>
+	<!--13 -->
+	<definition name="front/home/13"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/13.jsp" />
+	</definition>
+	<!--14 -->
+	<definition name="front/home/14"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/14.jsp" />
+	</definition>
+	<!--15 -->
+	<definition name="front/home/15"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/15.jsp" />
+	</definition>
+	<!--16 -->
+	<definition name="front/home/16"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/16.jsp" />
+	</definition>
+	<!--17 -->
+	<definition name="front/home/17"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/17.jsp" />
+	</definition>
+	<!--18 -->
+	<definition name="front/home/18"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/18.jsp" />
+	</definition>
+	<!--19 -->
+	<definition name="front/home/19"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/19.jsp" />
+	</definition>
+	<!--20 -->
+	<definition name="front/home/20"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/20.jsp" />
+	</definition>
+	<!--21 -->
+	<definition name="front/home/21"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/21.jsp" />
+	</definition>
+	<!--22 -->
+	<definition name="front/home/22"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/22.jsp" />
+	</definition>
+	<!--23 -->
+	<definition name="front/home/23"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/23.jsp" />
+	</definition>
+	<!--24 -->
+	<definition name="front/home/24"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/24.jsp" />
+	</definition>
+	<!--25 -->
+	<definition name="front/home/25"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/25.jsp" />
+	</definition>
+	<!--26 -->
+	<definition name="front/home/26"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/26.jsp" />
+	</definition>
+	<!--27 -->
+	<definition name="front/home/27_1"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/27_1.jsp" />
+	</definition>
+	<definition name="front/home/27_2"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/27_2.jsp" />
+	</definition>
+	<!--28 -->
+	<definition name="front/home/28"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/28.jsp" />
+	</definition>
+	<!--29 -->
+	<definition name="front/home/29"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/29.jsp" />
+	</definition>
+	<!--30 -->
+	<definition name="front/home/30"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/30.jsp" />
+	</definition>
+	<!--31 -->
+	<definition name="front/home/31"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/31.jsp" />
+	</definition>
+	<!--32 -->
+	<definition name="front/home/32"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/32.jsp" />
+	</definition>
+	<!--33 -->
+	<definition name="front/ClassMaster/33"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ClassMaster/33.jsp" />
+	</definition>
+	<!--34 -->
+	<definition name="front/ClassMaster/34"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ClassMaster/34.jsp" />	
+	</definition>
+	<!--35 -->
+	<definition name="front/ClassMaster/35"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ClassMaster/35.jsp" />
+	</definition>
+	<!--36 -->
+	<definition name="front/ClassCareerpathMaster/36"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ClassCareerpathMaster/36.jsp" />
+	</definition>
+	<!--37 -->
+	<definition name="front/ClassCareerpathMaster/37"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ClassCareerpathMaster/37.jsp" />
+	</definition>
+	<!--38 -->
+	<definition name="front/ClassCareerpathMaster/38"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ClassCareerpathMaster/38.jsp" />
+	</definition>
+	<!--39 -->
+	<definition name="front/home/39"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/39.jsp" />
+	</definition>
+	<!--40 -->
+	<definition name="front/ability_set/40"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ability_set/40.jsp" />
+	</definition>
+	<!--41 -->
+	<definition name="front/ability_set/41"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/ability_set/41.jsp" />
+	</definition>
+	<!--42 -->
+	<definition name="front/home/42"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/42.jsp" />
+	</definition>
+	<!--43 -->
+	<definition name="front/home/43"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/43.jsp" />
+	</definition>
+	<!--44 -->
+	<definition name="front/home/44"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/44.jsp" />
+	</definition>
+	<!--45 -->
+	<definition name="front/home/45"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/45.jsp" />
+	</definition>
+	<!--46 -->
+	<definition name="front/home/46"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/46.jsp" />
+	</definition>
+	<!--47 -->
+	<definition name="front/home/47"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/47.jsp" />
+	</definition>
+	<!--48 -->
+	<definition name="front/home/48"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/48.jsp" />
+	</definition>
+	<!--49 -->
+	<definition name="front/home/49"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/49.jsp" />
+	</definition>
+	<!-- 49_2 -->
+	<definition name="front/home/49_2"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/49_2.jsp" />
+	</definition>
+	<!-- 49_3 -->
+	<definition name="front/home/49_3"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/49_3.jsp" />
+	</definition>
+	<!-- 49_4 -->
+	<definition name="front/home/49_4"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/49_4.jsp" />
+	</definition>
+	<!--50 -->
+	<definition name="front/home/50"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/50.jsp" />
+	</definition>
+	<!--51 -->
+	<definition name="front/home/51"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/51.jsp" />
+	</definition>
+	<!--52 -->
+	<definition name="front/home/52"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/52.jsp" />
+	</definition>
+	<!--53 -->
+	<definition name="front/home/53"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/53.jsp" />
+	</definition>
+	<!--54 -->
+	<definition name="front/home/54"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/54.jsp" />
+	</definition>
+	<!--55 -->
+	<definition name="front/home/55"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/55.jsp" />
+	</definition>
+	<!--56 -->
+	<definition name="front/home/56"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/56.jsp" />
+	</definition>
+	<!--57 -->
+	<definition name="front/home/57"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/57.jsp" />
+	</definition>
+	<!--58 -->
+	<definition name="front/home/58"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/58.jsp" />
+	</definition>
+	<!--59 -->
+	<definition name="front/home/59"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/59.jsp" />
+	</definition>
+	<!--60 -->
+	<definition name="front/home/60"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/60.jsp" />
+	</definition>
+	<!--61 -->
+	<definition name="front/home/61"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/61.jsp" />
+	</definition>
+	<!--62 -->
+	<definition name="front/home/62"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/62.jsp" />
+	</definition>
+	<!--63 -->
+	<definition name="front/home/63"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/63.jsp" />
+	</definition>
+	<!--64 -->
+	<definition name="front/home/64"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/64.jsp" />
+	</definition>
+	<!--65 -->
+	<definition name="front/home/65"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/65.jsp" />
+	</definition>
+	<!--66 -->
+	<definition name="front/home/66"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/66.jsp" />
+	</definition>
+
+	<!--67 -->
+	<definition name="front/home/67"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/67.jsp" />
+	</definition>
+	<!--68 -->
+	<definition name="front/home/68"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/68.jsp" />
+	</definition>
+
+	<!--69 -->
+	<definition name="front/home/69"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/69.jsp" />
+	</definition>
+	<!--70 -->
+	<definition name="front/home/70"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/70.jsp" />
+	</definition>
+
+	<!--71 -->
+	<definition name="front/home/71"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/71.jsp" />
+	</definition>
+
+	<!--72 -->
+	<definition name="front/home/72"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/72.jsp" />
+	</definition>
+	<!--73 -->
+	<definition name="front/home/73"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/73.jsp" />
+	</definition>
+	<!--74 -->
+	<definition name="front/home/74"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/74.jsp" />
+	</definition>
+	<!--75 -->
+	<definition name="front/home/75"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/75.jsp" />
+	</definition>
+	<!--76 -->
+	<definition name="front/home/76"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/76.jsp" />
+	</definition>
+	<!--77 -->
+	<definition name="front/home/77"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/77.jsp" />
+	</definition>
+
+	<!--78 -->
+	<definition name="front/home/78"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/78.jsp" />
+	</definition>
+	<!--79 -->
+	<definition name="front/home/79"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/79.jsp" />
+	</definition>
+
+	<!--80 -->
+	<definition name="front/home/80"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/80.jsp" />
+	</definition>
+
+
+	<!--81 -->
+	<definition name="front/home/81"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/81.jsp" />
+	</definition>
+
+	<!--82 -->
+	<definition name="front/home/82"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/82.jsp" />
+	</definition>
+
+	<!--83 -->
+	<definition name="front/home/83"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/83.jsp" />
+	</definition>
+	<!--84 -->
+	<definition name="front/home/84"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/84.jsp" />
+	</definition>
+
+	<!--85 -->
+	<definition name="front/home/85"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/85.jsp" />
+	</definition>
+
+
+	<!--86 -->
+	<definition name="front/home/86"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/86.jsp" />
+	</definition>
+
+	<!--87 -->
+	<definition name="front/home/87"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/87.jsp" />
+	</definition>
+
+	<!--88 -->
+	<definition name="front/home/88"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/88.jsp" />
+	</definition>
+
+	<!--89 -->
+	<definition name="front/home/89"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/89.jsp" />
+	</definition>
+
+	<!--90 -->
+	<definition name="front/home/90"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/90.jsp" />
+	</definition>
+	
+	<!-- 100 -->
+	<definition name="front/home/100"
+		extends="base_front.definition">
+		<put-attribute name="body"
+			value="/Views/front/home/100.jsp" />
+	</definition>
+
+
+	<!-- END FRONT ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+	<!-- ADMIN -->
+	<!-- Base Define -->
+	<definition name="base_admin.definition"
+		template="/Views/admin/layout/_layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/Views/admin/layout/_header.jsp" />
+		<put-attribute name="menu"
+			value="/Views/admin/layout/_menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/Views/admin/layout/_footer.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="admin/home/index"
+		extends="base_admin.definition">
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="body"
+			value="/Views/admin/home/index.jsp" />
+	</definition>
+	<!-- ContactUs Page -->
+
+	<!-- admin -->
+	<definition name="admin/admin/index"
+		extends="base_admin.definition">
+		<put-attribute name="title" value="Admin Index" />
+		<put-attribute name="body"
+			value="/Views/admin/admin/index.jsp" />
+	</definition>
+	<definition name="admin/admin/login"
+		extends="base_admin.definition">
+		<put-attribute name="header" value="" />
+		<put-attribute name="menu" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="" />
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body"
+			value="/Views/admin/admin/login.jsp" />
+	</definition>
+
+
+
+
+</tiles-definitions>

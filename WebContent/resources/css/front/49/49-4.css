@@ -1,0 +1,41 @@
+.boxfix{
+   margin-top: 230px;
+   margin-bottom: 250px;
+}
+.alertfix494{
+    width: 160px;
+    background: #fff;
+    margin: 0 auto;
+    height: 80px;
+    top: 150px;
+    border: 2px solid #ccc !important;
+}
+.alertfix494 >p
+{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.span_foot_hide{
+  display: none;
+}
+.footer_block{
+  display: none;
+}
+.insert_button{
+  text-align: none;
+}
+#insert_button a{
+font-size: 12px !important;
+text-decoration: none;
+padding-right: 10px;
+}
+.span_foot_222{
+    display: none;
+}
+.span_foot_fix{
+  margin-top: -4px !important;
+}
+.span_head_4_1_2{
+  font-size: 12px;
+}

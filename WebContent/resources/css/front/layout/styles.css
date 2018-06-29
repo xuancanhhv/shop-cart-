@@ -1,0 +1,76 @@
+/* footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+} */
+/*
+Kien  tra fontsize: 
++ten bang 30px,20px 
++tieu de bang : 14px
++chu trong bang : 14px
++title khung ben trai : 30px
++chu noi dung khung ben trai: 14px
++Noi dung thong bao : 20px
++Noi dung nho ben duoi thong bao : 14px
+*/
+body {
+	font-family: arial
+}
+
+.ten_bang {
+	font-size: 30px !important;
+}
+
+.ten_bang_nho {
+	font-size: 20px !important;
+}
+
+.chu_trong_bang {
+	font-size: 14px !important;
+}
+
+.chu_trong_bang td {
+	font-size: 14px !important;
+}
+
+.chu_trong_bang th {
+	font-size: 14px !important;
+	font-weight: bold
+}
+
+.tieu_de_khung_ben_trai {
+	font-size: 14px !important;
+}
+
+.noi_dung_thong_bao {
+	font-size: 20px !important;
+}
+
+.noi_dung_nho_ben_duoi_thong_bao {
+	font-size: 14px !important;
+}
+
+.input_text {
+	outline: none;
+}
+
+button {
+	outline: none;
+}
+
+.btn_input {
+	outline: none;
+}
+
+textarea {
+	outline: none;
+}
+
+/*
+Updated by : AnhNP
+Updated date : 2018/06/07
+*/
+button:hover {
+	background-color: #cccccc;
+}

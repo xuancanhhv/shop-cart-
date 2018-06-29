@@ -1,0 +1,114 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/06/04
+Updated by : AnhNP
+Updated date : 2018/06/05
+*/
+.column_line_bottom {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+body {
+	background-color: #f2f2f2 !important;
+}
+
+.margin_left_3 {
+	margin-left: 3% !important;
+}
+
+.margin_right_3 {
+	margin-right: 3% !important;
+}
+
+.margin_top_3 {
+	margin-top: 3% !important;
+}
+
+.margin_bottom_3 {
+	margin-bottom: 3% !important;
+}
+
+.padding_top_2 {
+	padding-top: 2% !important;
+}
+
+.container_1 {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+@media ( min-width : 768px) {
+	.container_1 {
+		width: 750px;
+	}
+}
+
+@media ( min-width : 992px) {
+	.container_1 {
+		width: 970px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	.container_1 {
+		width: 1050px;
+	}
+}
+
+.text_center {
+	text-align: center;
+}
+
+.text_center tr td {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left !important;
+	padding-left: 1%;
+}
+
+.table_right {
+	width: 100%;
+}
+
+.table_right td {
+	height: 62px;
+	vertical-align: bottom;
+	padding-bottom: 7px !important;
+}
+
+.table_right th {
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	height: 35px;
+	background-color: #3498db;
+	color: #fff;
+	font-family: arial;
+}
+
+.line {
+	border: 0;
+	background-color: #ccc;
+	height: 2px;
+	cursor: pointer;
+}
+
+.input_text {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #3498db !important;
+}
+
+.width_11 {
+	width: 11%;
+}
+
+.width_89 {
+	width: 89%;
+}

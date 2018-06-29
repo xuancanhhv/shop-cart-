@@ -1,0 +1,54 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/05/28
+Updated by : AnhNP
+Updated date : 2018/06/07
+ */
+.btext2 {
+	display: inline-block;
+	position: relative;
+}
+
+.btext2>button {
+	position: absolute;
+	top: 0px;
+	width: 80.2%;
+	height: 120px;
+	border: thin;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: white;
+	background: #3498db;
+}
+
+.btext2>textarea {
+	width: 91.5%;
+	display: block;
+	margin-top: 119px;
+	color: white;
+	background: #2f89c5;
+	resize: none;
+	border: thin;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 13px;
+}
+
+.btext21>button {
+	position: absolute;
+	top: 0px;
+	width: 80.2%;
+	height: 120px;
+	border: thin;
+	border-radius: 5px;
+	color: white;
+	background: #3498db;
+}
+/* doanh chỉnh lại */
+.div_foot_1 {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+}

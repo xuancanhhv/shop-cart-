@@ -1,0 +1,510 @@
+.div_contant_1{
+	width:100%;
+	height:auto;
+	
+}
+.div_contant_left {
+       width: 40%;
+    /* height: 1000px; */
+    background-color: #fff;
+    float: left;
+    /* border-right: 2px solid #cccccc; */
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.div_contant{
+	/*background-color: #f2f2f2;*/
+	
+}
+.div_contant_right {
+    /* width: 60%; */
+    height: auto;
+    float: right;
+    border-left: 2px solid #cccccc;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.div_contant_left_1{
+	width: 73%;
+    height: 362px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+.div_contant_left_2{
+	width:100%;
+	height:40;
+}
+.div_contant_left_1_1{
+	width:100%;
+	margin-bottom: 20px;
+    
+    font-weight: bold;
+}
+.ul_contant_left_1{
+	list-style:none;
+	margin:0px;
+	padding:0px
+}
+.ul_contant_left_1 li{
+	border-bottom: 1px solid #e6e6e6;
+    height: 60px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.checkbox_contant_left_1_1{
+	
+}
+
+/* The container */
+.container {
+   display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+      position: absolute;
+    top: 6px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+	border: 1px solid #333333;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #333333;
+    border-radius: 2px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+   left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.after{
+	padding-left:20px
+}
+.last{
+	border-bottom:none !important;
+	padding-left:20px
+}
+.checkmark2{
+	float:right
+}
+.div_contant_right_1{
+	width:100%;
+	height:auto;
+	border-bottom:2px solid #ccc;
+	
+}
+.div_contant_right_1_2{
+	 width:100%;
+    
+	
+}
+.div_contant_right_1_3{
+	width:   94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;
+}
+.table_right_1_1{
+	width:100%;
+}
+.table_right_1_1 td{
+	border:1px solid #e6e6e6;
+	text-align:center;
+	height:40px;
+	
+}
+.table_right_1_1 th{
+	    border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+.div_contant_right_1_2_1{
+	margin-left: auto;
+    margin-right: auto;
+    width:   94%;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.div_contant_right_1_2_2{
+	margin-left: auto;
+    margin-right: auto;
+    width:   94%;
+    text-align: right;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.table_right_1_2{
+	width:100%;
+}
+.table_right_1_2 td{
+	border:1px solid #e6e6e6;
+	text-align:center;
+	height:40px;
+	width:16.6%
+	
+}
+.table_right_1_2 th{
+	    border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+
+.table_right_1_3{
+	width:100%;
+    border:1px solid #ccc
+}
+.table_right_1_3 td{
+	   border: 1px solid #e6e6e6;
+    text-align: center;
+    /* height: 80px; */
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table_right_1_3 th{
+	      border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 35px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+.btn_input{
+	
+      border: 1px solid #ccc;
+    width: 129px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #3498db;
+    box-shadow: 1px 1px 1px 1px #cff;
+    color: #fff;
+	font-size: 14px;}
+
+.btn_input:hover {
+    
+    background-color: #cccccc;
+    
+}
+.span_left_1{
+	float: left;
+    
+}
+.span_left_2{
+	float:right;
+	
+}
+.input_text{
+	width:200px;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #3498db !important;
+}
+.td_right_1_3_1{
+	width:15% !important;
+	text-align:left !important;
+}
+.td_right_1_3_2{
+	width:35% !important;
+	text-align:left !important;
+}
+.select_right_1{
+	width:150px;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #3498db !important;
+	background: url("../../../../resources/img/front/3/icon_select.png") right center no-repeat;    
+    background-size: 30px 30px;
+     -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    color:#999
+}
+.button_2{
+	    margin-top: 3px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.td_right_1_3_3{
+	width:50% !important;
+	text-align:left !important;
+}
+.input_text2{
+	width:100% !important;
+	    margin-top: 10px;
+}
+
+
+.table_right_1_4{
+	width:100%;
+}
+.table_right_1_4 td{
+	border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+    height: 80px;
+    width: 25%;
+    padding-top: 35px;
+	
+}
+.table_right_1_4 th{
+	      border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 35px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+
+.td_right_1_3_4{
+	    border-bottom: 1px solid #e6e6e6;
+    text-align: left;
+    height: 80px;
+    width: 80% !important;
+    padding-top: 10px  !important;
+}
+.label_input_text_1{
+	 text-align: left;
+	 float:left
+}
+.div_contant_right_1_2_2{
+	margin-left: auto;
+    margin-right: auto;
+    width:   94%;
+    text-align: left;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    
+}
+
+.div_v2{
+	
+	    float: right;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+.table_right_1_5{
+	width:100%;
+}
+.table_right_1_5 td{
+	border: 1px solid #e6e6e6;
+    text-align: left;
+    /* height: 80px; */
+    padding: 5px;
+    
+}
+.table_right_1_5 th{
+	    border: 1px solid #e6e6e6;
+    text-align: center;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    
+    font-family: arial;
+}
+.td_right_1_3_5{
+	width:10% !important;
+	  text-align: center !important;
+}
+.div_contant_right_1_2_5{
+	margin-left: auto;
+    margin-right: auto;
+    width:   94%;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.th_right_1_5{
+	  text-align: left !important;
+	  padding-left:5px
+}
+.no-body{
+	border-bottom: 2px solid #fff  !important;
+}
+
+/* Style the tab */
+.tab {
+    /* overflow: hidden; */
+    width: 760px;
+    height: auto;
+    /* margin-left: -5px; */
+    margin-right: auto;
+    /* padding-right: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 16px;
+    transition: 0.4s;
+    border: 2px solid #ccc;
+    border-bottom: 0px;
+    width: 132.5px;
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 2px solid #ccc;
+    text-align: left;
+    background-color: #e6e6e6;
+    color: #ccc;
+    margin-right: -10px;
+    position: relative;
+}
+.tab .tabbt1{
+    z-index:4;
+}
+.tab .tabbt2{
+    z-index:3;
+}
+.tab .tabbt5{
+    z-index:2;
+}
+.tab .tabbt6{
+    z-index:1;
+}
+.tab .div_tab{
+    width:0px;
+    float:left;
+    border-bottom: 2px solid #ccc;
+    height:40px
+}
+.table_1 {
+    width: 753px;
+    margin-left: 0px;
+}
+.tab .active{
+    background-color:#fff !important;
+    border-bottom:0px solid #fff;
+    color:#000;
+    font-weight:bold;
+    z-index:10 !important;
+    position: relative;
+}
+.no-right{
+    margin-right:0px !important;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.div_contant_right_2 {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-top: 0px;
+    padding: 20px;
+    width: 760px;
+    /* padding-right: 0px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.tr_1 {
+    background-color: #edf5fa !important;
+}
+.td_1 {
+    width: 35% !important;
+}
+.td_4 {
+    width: 65% !important;
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+.td_3 {
+    width: 5% !important;
+    background-color: #fff !important;
+    padding: 5px;
+}
+.td_left {
+    padding-right: 27px !important;
+}
+.th_1{
+    width:31%
+}
+.th_2{
+    width:46%
+}
+.th_3{
+    width:23%
+}

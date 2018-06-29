@@ -1,0 +1,29 @@
+/*
+Copyright (c) Office FA.com co., Ltd. All Rights Reserved.
+Created by : AnhNP
+Created date : 2018/06/04
+Updated by : AnhNP
+Updated date : 2018/06/06
+*/
+.bt4 {
+	top: 50px;
+	width: 50%;
+	height: 150px;
+	border: thin;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: white;
+	background: #3498db;
+	padding: 9%;
+	text-align: left;
+}
+
+.bt4:hover {
+	background-color: #cccccc;
+}
+
+.div_contant_1 {
+	margin-top: 18%;
+}
